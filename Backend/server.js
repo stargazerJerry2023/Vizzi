@@ -1,17 +1,17 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-
+require('dotenv').config();
 
 const app = express();
 app.use(bodyParser.json());
 
+const mongoDBUrl = process.env.MONGODB_URL;
+
+console.log('MongoDB URL:', mongoDBUrl);
 
 
-
-
-
-mongoose.connect('mongodb+srv://gerardov:ehJMhw70rcRRQzWF@cluster0.cbbix.mongodb.net/List?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect(mongoDBUrl, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
