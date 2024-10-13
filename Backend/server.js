@@ -12,7 +12,7 @@ app.use(bodyParser.json()); // To parse JSON requests
 const mongoDBUrl = process.env.MONGODB_URL;
 
 
-console.log('OpenAI API Key:', process.env.OPENAI_API_KEY);
+
 
 mongoose.connect(mongoDBUrl, {
   useNewUrlParser: true,
@@ -21,9 +21,6 @@ mongoose.connect(mongoDBUrl, {
   .then(() => console.log('MongoDB connected to Business database'))
   .catch(err => console.log('Error connecting to MongoDB:', err));
 
-
-
-  console.log('OpenAI API Key:', process.env.OPENAI_API_KEY);
 
 app.post('/api/chatgpt', async (req, res) => {
     const { prompt } = req.body;
