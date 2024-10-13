@@ -7,9 +7,11 @@ import Navbar from './Navbar/Navbar.jsx'
 import Home from './Home/Home.jsx'
 import Report from './Report/Report.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ChatGPTComponent from './ChatGPT.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<Login_Page/>
+
+<App />
   </StrictMode>,
 )
