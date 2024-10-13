@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(212, 216, 202);
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+.container{
+    width : auto;
+  }
+
+
+.nav-buttons {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+
+button {
+    background-color: rgb(218, 97, 36);
+    border: 1px solid #000000;
+    color: rgb(253, 253, 253);
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {
+    background-color: rgb(150, 66, 24);
+    color: #fff;
+}
+
+
+.center-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: auto;
+}
+
+
+.box1 {
+    height: 400px;
+    background-color: rgb(245, 244, 230);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    word-wrap:break-word;
+    margin-top: 60px;
+    width: auto;
+}
+
+
+.center-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+.box2 {
+    display: flex;
+    background-color: rgb(245, 244, 230);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(150, 97, 36, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+
+.box2-left {
+    flex: 1;
+    padding-right: 20px;
+    width: auto
+}
+
+
+.box2-right {
+    flex: 2;
+    width: auto
+    
+}
+
+
+.box2-right p {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 50px;
+    word-wrap: break-word;
+    color: rgb(98, 134, 112);
+    width: 100%
+}
+
+
+.box2-left h2 {
+    font-family: 'Tan Nimbus', sans-serif;
+    font-size: 70px;
+    margin: 0;
+    color: rgb(218, 97, 36);
+}
+
+
+.center-box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(218, 97, 36);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(150, 97, 36, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100% ;
+}
+
+
+.contact-us {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 20px;
+    color: rgb(245, 244, 230);
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    width: auto
+}
+
+
+.contact-person {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(245, 244, 230);
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+
+.icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
